@@ -1,6 +1,17 @@
 " Leader
 let mapleader = " "
 
+nmap ; :
+set modelines=0
+set autoindent
+set relativenumber
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+set nocompatible "no need for vi compt since 2010
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
 set nowritebackup
